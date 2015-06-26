@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42EB9B471B3DF6F700350601 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EB9B461B3DF6F700350601 /* main.m */; };
+		42EB9B4A1B3DF6F700350601 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EB9B491B3DF6F700350601 /* AppDelegate.m */; };
+		42EB9B4D1B3DF6F700350601 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EB9B4C1B3DF6F700350601 /* ViewController.m */; };
+		42EB9B501B3DF6F700350601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EB9B4E1B3DF6F700350601 /* Main.storyboard */; };
+		42EB9B521B3DF6F700350601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EB9B511B3DF6F700350601 /* Assets.xcassets */; };
+		42EB9B551B3DF6F700350601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EB9B531B3DF6F700350601 /* LaunchScreen.storyboard */; };
+		42EB9B601B3DF6F800350601 /* ChallongeMobileiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EB9B5F1B3DF6F800350601 /* ChallongeMobileiOSTests.m */; };
+		42EB9B6B1B3DF6F800350601 /* ChallongeMobileiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EB9B6A1B3DF6F800350601 /* ChallongeMobileiOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42EB9B5C1B3DF6F800350601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EB9B3A1B3DF6F700350601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EB9B411B3DF6F700350601;
+			remoteInfo = ChallongeMobileiOS;
+		};
+		42EB9B671B3DF6F800350601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EB9B3A1B3DF6F700350601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EB9B411B3DF6F700350601;
+			remoteInfo = ChallongeMobileiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42EB9B421B3DF6F700350601 /* ChallongeMobileiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallongeMobileiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EB9B461B3DF6F700350601 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42EB9B481B3DF6F700350601 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42EB9B491B3DF6F700350601 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42EB9B4B1B3DF6F700350601 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42EB9B4C1B3DF6F700350601 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42EB9B4F1B3DF6F700350601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42EB9B511B3DF6F700350601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42EB9B541B3DF6F700350601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42EB9B561B3DF6F700350601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EB9B5B1B3DF6F800350601 /* ChallongeMobileiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallongeMobileiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EB9B5F1B3DF6F800350601 /* ChallongeMobileiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChallongeMobileiOSTests.m; sourceTree = "<group>"; };
+		42EB9B611B3DF6F800350601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EB9B661B3DF6F800350601 /* ChallongeMobileiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallongeMobileiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EB9B6A1B3DF6F800350601 /* ChallongeMobileiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChallongeMobileiOSUITests.m; sourceTree = "<group>"; };
+		42EB9B6C1B3DF6F800350601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42EB9B3F1B3DF6F700350601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB9B581B3DF6F800350601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB9B631B3DF6F800350601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42EB9B391B3DF6F700350601 = {
+			isa = PBXGroup;
+			children = (
+				42EB9B441B3DF6F700350601 /* ChallongeMobileiOS */,
+				42EB9B5E1B3DF6F800350601 /* ChallongeMobileiOSTests */,
+				42EB9B691B3DF6F800350601 /* ChallongeMobileiOSUITests */,
+				42EB9B431B3DF6F700350601 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42EB9B431B3DF6F700350601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42EB9B421B3DF6F700350601 /* ChallongeMobileiOS.app */,
+				42EB9B5B1B3DF6F800350601 /* ChallongeMobileiOSTests.xctest */,
+				42EB9B661B3DF6F800350601 /* ChallongeMobileiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42EB9B441B3DF6F700350601 /* ChallongeMobileiOS */ = {
+			isa = PBXGroup;
+			children = (
+				42EB9B481B3DF6F700350601 /* AppDelegate.h */,
+				42EB9B491B3DF6F700350601 /* AppDelegate.m */,
+				42EB9B4B1B3DF6F700350601 /* ViewController.h */,
+				42EB9B4C1B3DF6F700350601 /* ViewController.m */,
+				42EB9B4E1B3DF6F700350601 /* Main.storyboard */,
+				42EB9B511B3DF6F700350601 /* Assets.xcassets */,
+				42EB9B531B3DF6F700350601 /* LaunchScreen.storyboard */,
+				42EB9B561B3DF6F700350601 /* Info.plist */,
+				42EB9B451B3DF6F700350601 /* Supporting Files */,
+			);
+			path = ChallongeMobileiOS;
+			sourceTree = "<group>";
+		};
+		42EB9B451B3DF6F700350601 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42EB9B461B3DF6F700350601 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42EB9B5E1B3DF6F800350601 /* ChallongeMobileiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				42EB9B5F1B3DF6F800350601 /* ChallongeMobileiOSTests.m */,
+				42EB9B611B3DF6F800350601 /* Info.plist */,
+			);
+			path = ChallongeMobileiOSTests;
+			sourceTree = "<group>";
+		};
+		42EB9B691B3DF6F800350601 /* ChallongeMobileiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42EB9B6A1B3DF6F800350601 /* ChallongeMobileiOSUITests.m */,
+				42EB9B6C1B3DF6F800350601 /* Info.plist */,
+			);
+			path = ChallongeMobileiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42EB9B411B3DF6F700350601 /* ChallongeMobileiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EB9B6F1B3DF6F800350601 /* Build configuration list for PBXNativeTarget "ChallongeMobileiOS" */;
+			buildPhases = (
+				42EB9B3E1B3DF6F700350601 /* Sources */,
+				42EB9B3F1B3DF6F700350601 /* Frameworks */,
+				42EB9B401B3DF6F700350601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChallongeMobileiOS;
+			productName = ChallongeMobileiOS;
+			productReference = 42EB9B421B3DF6F700350601 /* ChallongeMobileiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42EB9B5A1B3DF6F800350601 /* ChallongeMobileiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EB9B721B3DF6F800350601 /* Build configuration list for PBXNativeTarget "ChallongeMobileiOSTests" */;
+			buildPhases = (
+				42EB9B571B3DF6F800350601 /* Sources */,
+				42EB9B581B3DF6F800350601 /* Frameworks */,
+				42EB9B591B3DF6F800350601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EB9B5D1B3DF6F800350601 /* PBXTargetDependency */,
+			);
+			name = ChallongeMobileiOSTests;
+			productName = ChallongeMobileiOSTests;
+			productReference = 42EB9B5B1B3DF6F800350601 /* ChallongeMobileiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42EB9B651B3DF6F800350601 /* ChallongeMobileiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EB9B751B3DF6F800350601 /* Build configuration list for PBXNativeTarget "ChallongeMobileiOSUITests" */;
+			buildPhases = (
+				42EB9B621B3DF6F800350601 /* Sources */,
+				42EB9B631B3DF6F800350601 /* Frameworks */,
+				42EB9B641B3DF6F800350601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EB9B681B3DF6F800350601 /* PBXTargetDependency */,
+			);
+			name = ChallongeMobileiOSUITests;
+			productName = ChallongeMobileiOSUITests;
+			productReference = 42EB9B661B3DF6F800350601 /* ChallongeMobileiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42EB9B3A1B3DF6F700350601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Brandon R";
+				TargetAttributes = {
+					42EB9B411B3DF6F700350601 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					42EB9B5A1B3DF6F800350601 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 42EB9B411B3DF6F700350601;
+					};
+					42EB9B651B3DF6F800350601 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 42EB9B411B3DF6F700350601;
+					};
+				};
+			};
+			buildConfigurationList = 42EB9B3D1B3DF6F700350601 /* Build configuration list for PBXProject "ChallongeMobileiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42EB9B391B3DF6F700350601;
+			productRefGroup = 42EB9B431B3DF6F700350601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42EB9B411B3DF6F700350601 /* ChallongeMobileiOS */,
+				42EB9B5A1B3DF6F800350601 /* ChallongeMobileiOSTests */,
+				42EB9B651B3DF6F800350601 /* ChallongeMobileiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42EB9B401B3DF6F700350601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EB9B551B3DF6F700350601 /* LaunchScreen.storyboard in Resources */,
+				42EB9B521B3DF6F700350601 /* Assets.xcassets in Resources */,
+				42EB9B501B3DF6F700350601 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB9B591B3DF6F800350601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB9B641B3DF6F800350601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42EB9B3E1B3DF6F700350601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EB9B4D1B3DF6F700350601 /* ViewController.m in Sources */,
+				42EB9B4A1B3DF6F700350601 /* AppDelegate.m in Sources */,
+				42EB9B471B3DF6F700350601 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB9B571B3DF6F800350601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EB9B601B3DF6F800350601 /* ChallongeMobileiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB9B621B3DF6F800350601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EB9B6B1B3DF6F800350601 /* ChallongeMobileiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42EB9B5D1B3DF6F800350601 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EB9B411B3DF6F700350601 /* ChallongeMobileiOS */;
+			targetProxy = 42EB9B5C1B3DF6F800350601 /* PBXContainerItemProxy */;
+		};
+		42EB9B681B3DF6F800350601 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EB9B411B3DF6F700350601 /* ChallongeMobileiOS */;
+			targetProxy = 42EB9B671B3DF6F800350601 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42EB9B4E1B3DF6F700350601 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EB9B4F1B3DF6F700350601 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42EB9B531B3DF6F700350601 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EB9B541B3DF6F700350601 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42EB9B6D1B3DF6F800350601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42EB9B6E1B3DF6F800350601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42EB9B701B3DF6F800350601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChallongeMobileiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrandonRuggles.ChallongeMobileiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42EB9B711B3DF6F800350601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChallongeMobileiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrandonRuggles.ChallongeMobileiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42EB9B731B3DF6F800350601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChallongeMobileiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrandonRuggles.ChallongeMobileiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallongeMobileiOS.app/ChallongeMobileiOS";
+			};
+			name = Debug;
+		};
+		42EB9B741B3DF6F800350601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChallongeMobileiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrandonRuggles.ChallongeMobileiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallongeMobileiOS.app/ChallongeMobileiOS";
+			};
+			name = Release;
+		};
+		42EB9B761B3DF6F800350601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChallongeMobileiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrandonRuggles.ChallongeMobileiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChallongeMobileiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		42EB9B771B3DF6F800350601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChallongeMobileiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrandonRuggles.ChallongeMobileiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChallongeMobileiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42EB9B3D1B3DF6F700350601 /* Build configuration list for PBXProject "ChallongeMobileiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EB9B6D1B3DF6F800350601 /* Debug */,
+				42EB9B6E1B3DF6F800350601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EB9B6F1B3DF6F800350601 /* Build configuration list for PBXNativeTarget "ChallongeMobileiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EB9B701B3DF6F800350601 /* Debug */,
+				42EB9B711B3DF6F800350601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42EB9B721B3DF6F800350601 /* Build configuration list for PBXNativeTarget "ChallongeMobileiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EB9B731B3DF6F800350601 /* Debug */,
+				42EB9B741B3DF6F800350601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42EB9B751B3DF6F800350601 /* Build configuration list for PBXNativeTarget "ChallongeMobileiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EB9B761B3DF6F800350601 /* Debug */,
+				42EB9B771B3DF6F800350601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42EB9B3A1B3DF6F700350601 /* Project object */;
+}
